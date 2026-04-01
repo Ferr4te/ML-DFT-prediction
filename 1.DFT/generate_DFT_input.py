@@ -12,7 +12,7 @@ def getMolecuelsInfo(filename):
     return family, idx, chargeDic[charge], state, base
 
 def main():
-    directory_path = r"C:\Users\jenny\Desktop\demo\redox_pbe0"  
+    directory_path = "redox_pbe0"  
     for filename in os.listdir(directory_path):
         if filename.endswith("gn.xyz"):
             file_path = os.path.join(directory_path, filename)
