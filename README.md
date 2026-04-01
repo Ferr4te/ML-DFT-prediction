@@ -124,7 +124,6 @@ Parses ORCA output files to extract HOMO and LUMO orbital energies and calculate
 
 ```bash
 python database-HOMO-LUMO.py
-python database-redox.py
 ```
 
 - Reads orbital energies from ORCA output
