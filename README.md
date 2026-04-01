@@ -9,7 +9,6 @@
 
 - [Overview](#overview)
 - [Pipeline](#pipeline)
-- [Project Structure](#project-structure)
 - [Requirements](#requirements)
 - [Usage](#usage)
   - [Step 1: Prepare ORCA Input Files](#step-1-prepare-orca-input-files)
@@ -22,7 +21,6 @@
   - [Fingerprint Comparison](#fingerprint-comparison)
   - [Cross-Validation](#cross-validation)
 - [Key Findings](#key-findings)
-- [License](#license)
 
 ---
 
