@@ -78,7 +78,7 @@ ORCA (for DFT calculations)
 ### Python Dependencies
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib rdkit openpyxl
+pip install pandas numpy scikit-learn matplotlib rdkit 
 ```
 
 | Package | Purpose |
