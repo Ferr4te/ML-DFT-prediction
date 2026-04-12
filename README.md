@@ -88,7 +88,6 @@ pip install pandas numpy scikit-learn matplotlib rdkit openpyxl
 | `scikit-learn` | ML models, train/test split, cross-validation |
 | `matplotlib` | Data visualisation and performance plots |
 | `rdkit` | Molecular fingerprint generation (Morgan & Atom Pair) |
-| `openpyxl` | Excel file read/write |
 
 ---
 
