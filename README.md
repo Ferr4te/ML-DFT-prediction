@@ -43,27 +43,27 @@ XYZ Files
    │
    ▼
 ┌──────────────────────┐
-│  Prepare ORCA Inputs  │  ← Convert XYZ to ORCA input format
+│  Prepare ORCA Inputs │  ← Convert XYZ to ORCA input format
 └──────────┬───────────┘
            ▼
 ┌──────────────────────┐
-│  Run DFT Calculations │  ← ORCA on server
+│  Run DFT Calculations│  ← ORCA on server
 └──────────┬───────────┘
            ▼
 ┌──────────────────────┐
-│  Extract HOMO-LUMO    │  ← Parse ORCA output files
-│  Energy Gaps          │  ← Store in Excel
+│  Extract HOMO-LUMO   │  ← Parse ORCA output files
+│  Energy Gaps         │  ← Store in Excel
 └──────────┬───────────┘
            ▼
 ┌──────────────────────┐
-│  Calculate Reduction  │  ← Derive from energy data
-│  Potentials           │  ← Store in Excel
+│  Calculate Reduction │  ← Derive from energy data
+│  Potentials          │  ← Store in Excel
 └──────────┬───────────┘
            ▼
 ┌──────────────────────┐
-│  ML Model Training    │  ← RFR + fingerprints + energy gaps
-│  & Evaluation         │  ← Cross-validation & hyperparameter tuning
-└───────────────────────┘
+│  ML Model Training   │  ← RFR + fingerprints + energy gaps
+│  & Evaluation        │  ← Cross-validation & hyperparameter tuning
+└──────────────────────┘
 ```
 
 ---
